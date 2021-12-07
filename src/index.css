@@ -11,3 +11,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  filter: brightness(0.9);
+}
+
+/* Header + Footer */
+
+header {
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: black;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+footer {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+header ul, footer ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  height: fit-content;
+}
+
+footer ul {
+  justify-content: center;
+}
+
+header h1, header ul {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+header ul li, footer ul li {
+  margin-left: 0.5rem;
+}
+
+/* Main Page */
+
+.main-page-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-content h1 {
+  display: flex;
+}
+
+.jobs-div {
+  display: flex;
+  align-content: baseline;
+}
+
+.jobs-div h2 svg {
+  padding-top: 0.3rem;
+  margin-left: 0.5rem;
+}
+
+.open-to-jobs {
+  color: rgb(2, 68, 2);
+}
+
+
+/* Timeline */
+
+
+/* Footer */
